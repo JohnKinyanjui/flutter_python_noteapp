@@ -20,6 +20,8 @@ You can first try to run the python code alone.
 
 which make the app use the local server and if you want to make iyt visible to many devices just get your ***ipV4 address*** and add ***host="ipV4 address"***
 
+Thanks for reading
+
 4.Downloadc **postman** or any other similar app to test app some few links you can try:
 
 to get all notes - *http://127.0.0.1:5000/Notes*
