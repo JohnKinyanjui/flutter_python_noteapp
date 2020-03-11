@@ -19,3 +19,5 @@ You can first try to run the python code alone.
 
 If you receive any error you will need to install the libraries involved and thats actually easy first make sure you have pip installed and you can look inthe code and see which libraries used:
 **for example** :write this in you terminal or command prompt **pip install flask**, **pip install flask_sqlalchelmy** etc
+
+**NB** **You can try to delete the** ***sqlite file*** and run the project again and see what happens
