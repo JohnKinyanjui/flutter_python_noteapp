@@ -14,10 +14,21 @@ You can first try to run the python code alone.
 
 2.You can move to separate the **Backend folder** to another place to avoid any confusion.It does not need to be in the flutter app folder.
 
-3.Download **Visual studio code** or another program then in the terminal you can type this to run code **python main.py** and for python 3 users you can write **python3 main.py**
+3.Download **Visual studio code** or another program then in the terminal you can type this to run code **python main.py** and for python 3 users you can write **python3 main.py** also make sure you delete the ***host = "129.2.."*** in main.py like this:
 
+**** app.run(host="192.94.4.5) => app.run() ***
+
+which make the app use the local server and if you want to make iyt visible to many devices just get your ***ipV4 address*** and add ***host="ipV4 address"***
+
+4.Downloadc **postman** or any other similar app to test app some few links you can try:
+
+to get all notes - *http://127.0.0.1:5000/Notes*
+to add notes - *http://127.0.0.1:5000/addNote/Monday/02/January/title/10:00/20:00*
+to update notes title - *http://127.0.0.1:5000/1/title*
 
 If you receive any error you will need to install the libraries involved and thats actually easy first make sure you have pip installed and you can look inthe code and see which libraries used:
 **for example** :write this in you terminal or command prompt **pip install flask**, **pip install flask_sqlalchelmy** etc
+
+
 
 **NB** **You can try to delete the** ***sqlite file*** and run the project again and see what happens
